@@ -1,0 +1,395 @@
+/*--- Link Fonts ---*/
+@font-face{
+	font-family: "Lato";
+	src: url("..//fonts/latoregular.woff2") format("woff2"),
+	url("..//fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("..//fonts/latobold.woff2") format("woff2"),
+	url("..//fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("..//fonts/latoblack.woff2") format("woff2"),
+	url("..//fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "Lato";
+	color: #424551;
+}
+[class*="_container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+
+.page-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+.page-text{
+	line-height: 25.6px;
+	margin-bottom: 48px;
+}
+.page-items {
+	margin-bottom: 48px;
+}
+.page-items h2{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 42px;
+	color: #1e212c;
+	margin-bottom: 24px;
+}
+.page-items li{
+	margin-bottom: 4px;
+	padding-left: 32px;
+	line-height: 25.6px;
+	background: url("..//img/icon/Vector.svg") 0 6px no-repeat ;
+}
+.curator-text{
+	margin-bottom: 16px;
+}
+.curator-text h6{
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing:1px;
+	margin-bottom: 8px;
+	color: #1e212c;
+}
+.curator-text h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	color: #1e212c;
+}
+.curator-skills {
+	margin-bottom: 32px;
+}
+.curator-skills h2{
+	font-size: 20px;
+	line-height: 30px;
+	color: #787a80;
+	margin-bottom: 32px;
+}
+.rate {
+	font-weight: 700;
+	line-height: 25.6px;
+	padding-left: 24px;
+	margin-bottom: 4px;
+	background: url("..//img/icon/Star.svg") 0 4px no-repeat;
+}
+.courses {
+	font-weight: 700;
+	line-height: 25.6px;
+	padding-left: 24px;
+	margin-bottom: 4px;
+	background: url("..//img/icon/Play.svg") 0 4px no-repeat;
+}
+.students {
+	font-weight: 700;
+	line-height: 25.6px;
+	padding-left: 24px;
+	margin-bottom: 4px;
+	background: url("..//img/icon/Profile.svg") 0 4px no-repeat;
+}
+   /*---Homework---*/
+
+.training__container {
+	background-color: rgba(0, 0, 255, 0.162);
+	padding: 10px;
+}
+.homework {
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 59.8px;
+	letter-spacing: 1px;
+	color: #1e212c;
+	margin-bottom: 50px;
+}
+.view {
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 25.6px;
+	letter-spacing: 2px;
+	color: #1e212c;
+	margin-bottom: 30px;
+}
+.hover {
+	background-color: rgba(160, 157, 157, 0.491);
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.link {
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.link:hover{
+	color: #000;
+	text-transform: uppercase;
+}
+.hover p{
+	padding: 5px;
+}
+.active {
+	background-color: rgba(160, 157, 157, 0.491);
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.link2 {
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.link2:active{
+	color: green;
+}
+.active p{
+	padding: 5px;
+}
+.visited {
+	background-color: rgba(160, 157, 157, 0.491);
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.link3 {
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.link3:visited{
+	color: blue;
+}
+.visited p{
+	padding: 5px;
+}
+.focus {
+	background-color: rgba(160, 157, 157, 0.491);
+	border: 1px solid #000;
+	margin-bottom: 30px;
+}
+.focus p{
+	padding: 5px;
+}
+.link4 {
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.link4:focus{
+	outline: 1px solid red;
+}
+.target {
+		background-color: rgba(160, 157, 157, 0.491);
+		border: 1px solid #000;
+		margin-bottom: 60px;
+}
+.link5 {
+	margin-left: 25px;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.block{
+	background-color: #e7d3246c;
+	color: #424551;
+	padding: 15px;
+	display: none;
+}
+.block:target{
+	display: block;
+}
+.block p{
+	padding: 5px;
+}
+.name-child h2{
+	text-align: center;
+	font-size: 24px;
+	line-height: 25.6px;
+	color: red;
+}
+.name-child p{
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+.first-child{
+	margin-bottom: 30px;
+}
+.first-child p{
+	padding: 5px;
+}
+.first-child p:first-child{
+	color: yellow;
+}
+.first-of-type {
+	margin-bottom: 30px;
+}
+.first-of-type p{
+	padding: 5px;
+}
+.first-of-type p:first-of-type{
+	text-transform: uppercase;
+	color: rgba(7, 155, 7, 0.452);
+}
+.name-child h3{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.last-child{
+	margin-bottom: 30px;
+}
+.last-child p{
+	padding: 5px;
+}
+.last-child p:last-child{
+	color: rgba(0, 0, 255, 0.745);
+}
+.last-of-type{
+	margin-bottom: 30px;
+}
+.last-of-type p{
+	padding: 5px;
+}
+.last-of-type p:last-of-type{
+	color: red;
+	
+}
+.nth-child{
+	margin-bottom: 30px;
+}
+.nth-child p{
+	padding: 5px;
+}
+.nth-child p:nth-child(even){
+	color: rgba(129, 19, 162, 0.796);
+}
+.not{
+	margin-bottom: 30px;
+}
+.not p{
+	padding: 5px;
+}
+.not p:not(:first-child){
+color: rgb(36, 235, 36);
+}
+.before{
+	max-width: 400px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: aqua;
+}
+.before h2::before{
+	content: "";
+	background-image: url("..//img/icon/Star.svg") ;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+	transition: all 1s ease 0s;
+}
+.before h2:hover::before{
+	transform: scale(1.5);
+	margin-left: 120px;
+}
+.before h2::after{
+	content: "content - создає контент";
+	display: none;
+	transition: all 1s ease 0s;
+}
+.before h2:hover::after{
+	display: inline-block;
+	padding: 5px;
+}
+.after{
+	margin-bottom: 30px;
+	max-width: 400px;
+	text-align: right;
+	margin-left: 20px;
+	background-color: aquamarine;
+}
+.after p::after{
+	content: "";
+	background-image: url("..//img/icon/Star.svg") ;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-left: 5px;
+	transition: all 1s ease 0s;
+}
+.after p:hover::after{
+	transform: scale(1.5);
+	margin-right: 120px;
+}
+.after p::before{
+	content: "content - создає контент";
+	display: none;
+	transition: all 1s ease 0s;
+}
+.after p:hover::before{
+	display: inline-block;
+	padding: 5px;
+}
+.block-list {
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: rgba(0, 0, 250, 0.162);
+}
+ul{
+	margin-left: 100px;
+}
+ul li{
+	padding: 5px;
+}
+ul ul{
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+.block-list a:hover{
+	text-transform: uppercase;
+	color: blue;
+}
+.next-block{
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: #3b5bce51;
+}
+.next-block ol{
+	counter-reset: item;
+}
+.next-block li{
+	padding: 5px;
+}
+.next-block ol li::before{
+	counter-increment: item;
+	content: counter(item) ". Paragraph";
+	display: inline-block;
+	margin-right: 5px;
+	color: red;
+}
+
+.next-block li:hover{
+	text-transform: uppercase;
+}
